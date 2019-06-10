@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+}
+
+.header p {
+  display: inline-block;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #737373;
+}
+
+.header span {
+  color: #4286f4
+}
