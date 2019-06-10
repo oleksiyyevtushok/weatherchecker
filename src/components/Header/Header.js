@@ -16,7 +16,7 @@ class Header extends React.Component {
       </div>
     );
   }
-}е ж
+}
 
 const mapStateToProps = state => ({
   city: state.currCity,

@@ -1,6 +1,5 @@
 .App {
-  text-align: center;
-  margin: 0 auto;
+  display: inline-block;
   background-color: white;
   box-shadow:
     /* The top layer shadow */
@@ -14,7 +13,7 @@
     /* The third layer shadow */
     0 20px 1px -9px rgba(0, 0, 0, 0.15);
   width: 900px;
-  height: 430px;
+  height: 100%;
   padding: 30px 40px;
   font-size: 20px;
 }
