@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Card.css';
+
 import { connect } from 'react-redux';
 
 class Card extends Component {

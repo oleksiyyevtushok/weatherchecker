@@ -22,7 +22,6 @@ const getWeatherByCoordinate = (lat, lon) => dispatch => {
       `,
     )
     .then(res => {
-      console.log(res);
       dispatch({
         type: GET_WEATHER_COORD,
         payload: res,

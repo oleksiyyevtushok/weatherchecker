@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
+
 import { connect } from 'react-redux';
 
 class Header extends React.Component {
   render() {
     const { city } = this.props;
-    console.log(city);
     return (
       <div className="header">
         <img src={require('../../img/logo.png')} alt="" />

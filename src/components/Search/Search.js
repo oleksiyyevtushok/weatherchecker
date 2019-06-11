@@ -1,7 +1,7 @@
 import React from 'react';
 import './Search.css';
-import { connect } from 'react-redux';
 
+import { connect } from 'react-redux';
 import { getWeather, getWeatherByCoordinate } from '../../actions/index';
 
 class Search extends React.Component {
