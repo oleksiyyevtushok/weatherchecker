@@ -144,3 +144,17 @@
 .search .button:hover:before {
   width: 100%;
 }
+
+.search .button.btncrr {
+  position: relative;
+  top: -6px;
+  padding: 0.65rem 1.25rem;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1036px) {
+  .search .button.btncrr {
+    margin-right: 0px;
+  }
+}

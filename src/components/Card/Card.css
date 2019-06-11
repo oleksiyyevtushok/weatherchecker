@@ -1,0 +1,40 @@
+.cardMain {
+  display: flex;
+}
+
+.card {
+  text-align: left;
+  width: 60%;
+}
+
+.day {
+  font-size: 28px;
+  color: #4286f4;
+  margin: 0;
+  padding: 0;
+}
+
+.day span {
+  color: #737373;
+  font-weight: bold;
+}
+
+.desc {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #737373;
+  text-transform: capitalize
+}
+
+.riceset p {
+  color: #4286f4;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 50%;
+}
+
+.riceset span {
+  font-weight: 500;
+  color: #737373;
+}

@@ -12,8 +12,14 @@
     0 20px 0 -10px #eee,
     /* The third layer shadow */
     0 20px 1px -9px rgba(0, 0, 0, 0.15);
-  width: 900px;
+  width: 35%;
   height: 100%;
   padding: 30px 40px;
   font-size: 20px;
+}
+
+@media (max-width: 870px) {
+  .App {
+    width: 70%;
+  }
 }

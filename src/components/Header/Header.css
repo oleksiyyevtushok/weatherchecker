@@ -19,3 +19,12 @@
 .header span {
   color: #4286f4
 }
+
+.hp {
+  color: #4286f4;
+  margin: 0;
+}
+
+.hp span {
+  color: #737373;
+}
